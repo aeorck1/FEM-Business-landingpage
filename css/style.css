@@ -38,8 +38,10 @@ body {
   font-size: 30px;
   font-weight: 700;
 }
-#card .left-side .inside-left-side .top-side span {
+#card .left-side .inside-left-side .top-side .span {
   color: hsl(277deg, 64%, 61%);
+  font-size: inherit;
+  display: inline;
 }
 #card .left-side .inside-left-side .mid-side {
   color: hsla(0deg, 0%, 100%, 0.75);
@@ -150,7 +152,7 @@ body {
     font-size: 30px;
     font-weight: 700;
   }
-  #card .left-side .inside-left-side .top-side span {
+  #card .left-side .inside-left-side .top-side .span {
     color: hsl(277deg, 64%, 61%);
   }
   #card .left-side .inside-left-side .mid-side {
@@ -241,7 +243,7 @@ body {
     z-index: 1;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 460px) {
   #card {
     background-color: hsl(244deg, 38%, 16%);
     width: 325px;
@@ -277,7 +279,7 @@ body {
     font-weight: 700;
     margin: 0 auto;
   }
-  #card .left-side .inside-left-side .top-side span {
+  #card .left-side .inside-left-side .top-side .span {
     color: hsl(277deg, 64%, 61%);
   }
   #card .left-side .inside-left-side .mid-side {
