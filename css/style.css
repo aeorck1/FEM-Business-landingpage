@@ -52,6 +52,7 @@ body {
 #card .left-side .inside-left-side .bottom-side {
   display: flex;
   align-items: flex-end;
+  justify-content: space-between;
   width: inherit;
   margin: 60px 0 0;
   padding: 20px 0 0 0;
@@ -61,7 +62,7 @@ body {
 }
 
 .stats {
-  margin: 0 auto;
+  margin: 0;
   margin-top: 20px;
   font-size: 25px;
 }
